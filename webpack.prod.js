@@ -418,9 +418,9 @@ module.exports = [
                     configureBanner()
                 ),
                 new ImageminWebpWebpackPlugin(),
-                new WorkboxPlugin.GenerateSW(
-                    configureWorkbox()
-                ),
+                // new WorkboxPlugin.GenerateSW(
+                //     configureWorkbox()
+                // ),
                 new CompressionPlugin(
                     configureCompression()
                 ),
