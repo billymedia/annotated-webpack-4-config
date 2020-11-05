@@ -5,7 +5,7 @@
 {{ craft.twigpack.includeCssModule("styles.css", false) }}
 <!--# else -->
 <script>
-     Cookie.set("critical-css", "{{ cssHash }}", { expires: "7D", secure: true });
+     {# Cookie.set("critical-css", "{{ cssHash }}", { expires: "7D", secure: true }); #}
 </script>
 
 {{ craft.twigpack.includeCriticalCssTags() }}
